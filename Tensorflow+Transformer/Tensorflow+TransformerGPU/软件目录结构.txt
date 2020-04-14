@@ -1,0 +1,65 @@
+
+Transformer
+
+|-- bin/
+|   |-- main.py   # 单条数据预测入口
+|   |-- plot_show_bleu.py # 展示bleu
+|   |-- plot_show_loss.py # 展示loss
+|
+|-- config/
+|   |-- config.ini   # 模型配置文件
+|
+|-- data/  # 原始数据和分词后的数据存储文件
+|   |-- raw/ # 小黄鸡原始语料
+|      |-- util.py # 抽取对话数据
+|      |-- 小黄鸡对话.conv 
+|   |-- source/ # 原始数据
+|      |-- train/ # 训练数据
+|          |-- source.txt   # 编码器端数据
+|          |-- target.txt   # 解码器端数据
+|      |-- test/  # 测试数据
+|          |-- source.txt   # 编码器端数据
+|          |-- target.txt   # 解码器端数据
+|      |-- eval/  # 评估数据
+|          |-- source.txt
+|          |-- target.txt
+|   |-- segmented/ # 输入模型的数据,由src/prepro.py生成,经过分词,未去标点符号
+|      |-- train/ # 训练数据
+|          |-- source.txt   # 编码器端数据
+|          |-- target.txt   # 解码器端数据
+|      |-- test/  # 测试数据
+|          |-- source.txt   # 编码器端数据
+|          |-- target.txt   # 解码器端数据
+|      |-- eval/  # 评估数据
+|          |-- source.txt
+|          |-- target.txt
+|
+|-- image/ # 存储图片
+|
+|-- log/   # 模型日志
+|
+|-- model/ # 模型存储
+|
+|-- post/  # 一些相关的博客和paper
+|
+|-- result/# 测试集test的预测结果
+|
+|-- src/   # 模型各模块代码
+|   |-- data_load.py
+|   |-- evalData_maxlen.py
+|   |-- hparams.py
+|   |-- model.py
+|   |-- modules.py
+|   |-- prepro.py
+|   |-- test.py
+|   |-- train.py
+|   |-- utils.py
+|
+|   README.md # 模型代码解读
+|
+|   requirements.txt # 模型要求的库
+|
+|   软件目录结构.txt
+
+
+

@@ -1,0 +1,6 @@
+﻿Epoch:   1	| Step:     5	| ROUGE-1:       0.27	| ROUGE-2:       0.00	| ROUGE-L:       0.27
+Epoch:   2	| Step:    10	| ROUGE-1:       0.24	| ROUGE-2:       0.00	| ROUGE-L:       0.24
+Epoch:   2	| Step:    15	| ROUGE-1:       0.28	| ROUGE-2:       0.00	| ROUGE-L:       0.28
+Epoch:   3	| Step:    20	| ROUGE-1:       0.36	| ROUGE-2:       0.00	| ROUGE-L:       0.35
+Epoch:   3	| Step:    25	| ROUGE-1:       0.34	| ROUGE-2:       0.00	| ROUGE-L:       0.34
+print_every_loss:	407.15	41.23	167.25	41.13	115.86
